@@ -18,13 +18,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Solution Screenshot](./design/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/420-bot/four-card-feature-section-master)
+- Live Site URL: [live site URL](https://420-bot.github.io/four-card-feature-section-master/)
 
 ## My process
 
@@ -37,8 +36,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@420-bot](https://www.frontendmentor.io/profile/420-bot)
 - Twitter - [@ShadaYaMwisho](https://www.twitter.com/ShadaYaMwisho)
 
 
