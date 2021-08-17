@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    /* height: 100vh; */
+    font-size: 15px;
+    background-color: #fafafa;
+    border: 2px solid #e0e0e0;
+}
+
+main {
+    /* height: 100vh; */
+    /* border: 1px solid rgb(143, 44, 44); */
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+header p {
+    text-align: center;
+}
+
+header span,
+p {
+    color: #a0a0a0;
+    font-weight: 200;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+    /* border: 5px solid green; */
+    /* align-content: center; */
+    justify-items: center;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 10px;
+    padding: 10px;
+    color: #ffff;
+    width: 80%;
+    height: 30%;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    align-self: center;
+    margin-left: 1em;
+}
+
+#team {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    margin-left: 1em;
+}
+
+#Calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    align-self: center;
+}
+
+img {
+    position: relative;
+    /* left: 65%; */
+    justify-self: end;
+}
+
+@media screen and (max-width:475px) {
+    html {
+        font-size: 12px;
+        height: 1120px;
+        /* border: 2px solid #ce1212; */
+    }
+    body {
+        height: 100%;
+        height: max-content;
+    }
+    main {
+        /* height: 200vh; */
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: max-content;
+    }
+    footer {
+        font-size: 10px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
